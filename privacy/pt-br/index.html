@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Política de Privacidade do Dragon Time.">
+  <title>Política de Privacidade — Dragon Time</title>
+  <link rel="icon" href="/assets/dragon-time-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="shell nav">
+    <a class="brand" href="/">DRAGON <span>TIME</span></a>
+    <nav class="nav-links" aria-label="Navegação principal"><a href="/">Início</a><a href="/privacy/pt-br/">Privacidade</a><a href="/support/">Suporte</a></nav>
+  </header>
+  <main class="shell content"><article>
+    <a class="language-switch" href="/privacy/" lang="en">English</a>
+    <p class="eyebrow">PRIVACIDADE</p><h1>Política de Privacidade do Dragon Time</h1><p><strong>Última atualização:</strong> 12 de agosto de 2026</p>
+    <p>Esta política explica como o Dragon Time trata informações durante o uso do jogo. O Dragon Time funciona prioritariamente offline e atualmente não possui sistema próprio de contas, serviço próprio de analytics, banco de dados em nuvem ou backend do desenvolvedor. Alguns recursos opcionais ou conectados usam serviços do Google, que podem tratar dados conforme seus próprios termos e política de privacidade.</p>
+
+    <h2>Informações armazenadas no aparelho</h2>
+    <p>O Dragon Time usa armazenamento local (AsyncStorage) para:</p>
+    <ul><li>recordes e estatísticas agregadas, incluindo score, tempo sobrevivido, velocidade máxima, tamanho máximo, partidas jogadas e itens coletados;</li><li>preferências de som, música, vibração, idioma e outras configurações locais;</li><li>o idioma selecionado ou a opção de seguir o idioma do aparelho;</li><li>horários da primeira abertura e do último horário conhecido usados na oferta local de 24 horas;</li><li>um entitlement local em cache indicando a compra de <code>remove_ads</code>;</li><li>o maior score de ranking aguardando sincronização quando o Play Games estiver indisponível.</li></ul>
+    <p>Essas informações não são enviadas para um backend do Dragon Time, pois ele não existe atualmente. Em geral, permanecem até que você limpe os dados do app ou o desinstale. Reinstalar ou limpar dados pode remover recordes e preferências locais. Uma compra válida poderá ser restaurada pelo Google Play.</p>
+
+    <h2>Publicidade, AdMob e consentimento</h2>
+    <p>O Dragon Time usa Google Mobile Ads (AdMob) para anúncios banner, interstitial e rewarded voluntário. Antes de solicitar anúncios quando aplicável, o app usa a User Messaging Platform (UMP) do Google para atualizar as informações de consentimento e apresentar o formulário oficial do Google quando necessário. Se a UMP indicar que as opções de privacidade devem permanecer disponíveis, o app mostra a entrada Privacidade para reabrir o formulário oficial.</p>
+    <p>A configuração atual solicita anúncios não personalizados. Conforme consentimento, região, configurações do aparelho e do SDK e regras de anúncios limitados do Google, o Google pode limitar o tratamento ou determinar que anúncios não podem ser solicitados. Recusar quando essa opção estiver disponível não bloqueia o jogo. Anúncios podem ficar indisponíveis offline.</p>
+    <p>Segundo a declaração do Google Mobile Ads SDK, o SDK pode coletar ou compartilhar automaticamente informações como endereço IP (que pode indicar localização geral), interações com app e anúncios, dados de diagnóstico e desempenho, ID de publicidade, app set ID e outros identificadores aplicáveis do aparelho ou da conta para publicidade, medição/analytics, segurança e prevenção a fraude. Dados enviados pelo SDK são tratados pelo Google e não ficam em um backend do Dragon Time.</p>
+    <p>A compra Remover Anúncios oculta banner e interstitial. O rewarded voluntário usado para Continue permanece disponível; portanto, o Google Mobile Ads ainda poderá ser usado após a compra.</p>
+
+    <h2>Compras e Google Play Billing</h2>
+    <p>O Dragon Time usa o Google Play Billing para o produto de compra única <code>remove_ads</code>. O Google Play processa os dados de pagamento e a compra pela conta Google. O Dragon Time recebe o identificador do produto, status da compra e token ou informações da transação necessários para conceder, finalizar e restaurar o entitlement. O app guarda apenas um entitlement local em cache e não envia dados da compra para backend próprio.</p>
+    <p>Preço, moeda, elegibilidade e eventual oferta promocional são fornecidos pelo Google Play. O relógio local da primeira abertura apenas determina se o app poderá apresentar uma oferta elegível durante 24 horas; ele não cria preço nem define elegibilidade.</p>
+
+    <h2>Google Play Games e ranking</h2>
+    <p>Quando o Google Play Games estiver configurado e disponível, o Dragon Time poderá usá-lo para autenticação, envio do melhor score, obtenção do nome de exibição ou apelido, score e posição, e abertura da interface de leaderboard do Google. O Google trata os dados da conta e do ranking global. Se a sincronização estiver indisponível, o Dragon Time guarda localmente o maior score pendente e tenta novamente depois. O desenvolvedor não mantém servidor próprio de ranking.</p>
+
+    <h2>Diagnósticos e funcionamento offline</h2>
+    <p>SDKs do Google podem tratar informações de diagnóstico e desempenho conforme suas documentações. O Dragon Time também registra status e erros de SDK nos logs do aparelho em builds de desenvolvimento ou diagnóstico. Esses logs não são enviados para backend próprio.</p>
+    <p>Gameplay, recordes locais, preferências e idioma funcionam offline. Anúncios, atualização de consentimento, compras, restauração e Play Games dependem do serviço Google correspondente e de conexão. Falhas nesses serviços não bloqueiam o gameplay principal.</p>
+
+    <h2>Compartilhamento e serviços de terceiros</h2>
+    <p>O desenvolvedor não vende diretamente os recordes locais nem os envia para serviço próprio. Informações podem ser tratadas pelo Google quando o SDK ou serviço correspondente é usado. Recursos relevantes:</p>
+    <ul><li><a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a></li><li><a href="https://policies.google.com/technologies/ads?hl=pt-BR">Tecnologias de publicidade do Google</a></li><li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Declaração de dados do Google Mobile Ads SDK</a></li><li><a href="https://play.google.com/intl/pt-BR_br/about/play-terms/">Termos de Serviço do Google Play</a></li><li><a href="https://developers.google.com/games/services">Google Play Games Services</a></li></ul>
+    <p>Retenção, segurança e controles de conta do Google aplicam-se às informações tratadas pelos serviços do Google.</p>
+
+    <h2>Suas opções</h2>
+    <p>Conforme disponibilidade e região, você poderá revisar escolhas pelo formulário oficial de Privacidade da UMP, controlar o ID de publicidade nas configurações do Android, gerenciar conta Google e Play Games, não usar rewarded voluntário, limpar dados locais, desinstalar o app ou comprar <code>remove_ads</code> para remover banner e interstitial.</p>
+
+    <h2>Crianças</h2>
+    <p>O Dragon Time atualmente não solicita data de nascimento e não marca automaticamente usuários como menores da idade de consentimento. O público-alvo e a classificação etária finais devem ser configurados corretamente no Google Play e AdMob antes da publicação. Esta política deverá ser revisada se o app for direcionado a crianças ou adicionar verificação de idade.</p>
+
+    <h2>Alterações e contato</h2>
+    <p>Esta política deverá ser atualizada quando o app modificar SDKs, práticas de dados, contas, analytics, backend ou recursos conectados. A versão publicada ficará disponível em [PRIVACY POLICY URL].</p>
+    <p><strong>Contato do desenvolvedor:</strong> [DEVELOPER EMAIL]<br><strong>Site do desenvolvedor:</strong> [DEVELOPER WEBSITE]</p>
+  </article></main>
+  <footer><div class="shell"><a href="/support/">Suporte</a> · [DEVELOPER WEBSITE]</div></footer>
+</body>
+</html>
